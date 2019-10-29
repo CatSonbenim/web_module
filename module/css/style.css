@@ -28,8 +28,8 @@
 
 @keyframes move{
 	0% {}
-	25% {transform: translate(500px, 400px);}
-	45% {transform: translate(1000px, 800px);}
+	25% {transform: translate(500px, 400px) rotate(360deg);}
+	45% {transform: translate(1000px, 800px) rotate(0deg);}
 	50% {transform: translate(1000px, 800px);}
 	75% {transform: translate(800px, 500px);}
 	100% {transform: translate(400px, 500px);}
@@ -37,8 +37,8 @@
 
 @keyframes moving{
 	0% {}
-	25% {transform: translate(500px, -400px);}
-	45% {transform: translate(1000px, -880px);}
+	25% {transform: translate(500px, -400px)rotate(360deg);}
+	45% {transform: translate(1000px, -880px) rotate(0deg);}
 	50% {transform: translate(1000px, -880px);}
 	75% {transform: translate(800px, -480px);}
 	100% {transform: translate(400px, -480px);}
